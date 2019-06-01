@@ -1,22 +1,22 @@
 {
-    response: {
-        players: [
+    "response": {
+        "players": [
             {
-                steamid: "13333333333333337",
-                communityvisibilitystate: 3,
-                profilestate: 1,
-                personaname: "Awesome name",
-                lastlogoff: 1333333337,
-                commentpermission: 1,
-                profileurl: "somecrazylinkgoeshere0",
-                avatar: "somecrazylinkgoeshere1",
-                avatarmedium: "somecrazylinkgoeshere2",
-                avatarfull: "somecrazylinkgoeshere3",
-                personastate: 1,
-                realname: "If person has a real name set, this will be set",
-                primaryclanid: "1337",
-                timecreated: 1337,
-                personastateflags: 0
+                "steamid": "13333333333333337",
+                "communityvisibilitystate": 3,
+                "profilestate": 1,
+                "personaname": "Awesome name",
+                "lastlogoff": 1333333337,
+                "commentpermission": 1,
+                "profileurl": "somecrazylinkgoeshere0",
+                "avatar": "somecrazylinkgoeshere1",
+                "avatarmedium": "somecrazylinkgoeshere2",
+                "avatarfull": "somecrazylinkgoeshere3",
+                "personastate": 1,
+                "realname": "If person has a real name set, this will be set",
+                "primaryclanid": "1337",
+                "timecreated": 1337,
+                "personastateflags": 0
             }
         ]
     }
