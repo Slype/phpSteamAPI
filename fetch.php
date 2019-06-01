@@ -1,7 +1,7 @@
 <?php
 
 // Api link, replace [apikey] with your API key and [ids] with a comma separated string of Steam64IDs
-$apiurl = "https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=[apikey]&steamids=[ids]";
+$apiurl = "http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=[apikey]&steamids=[ids]";
 
 // Fetch JSON data from Steam's servers
 $response = file_get_contents($apiurl);
