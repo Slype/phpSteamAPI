@@ -12,11 +12,12 @@ if($response === false)
 // Decode JSON data into an associative array instead of an object by sending true as the second argument
 $data = json_decode($response, true);
 // Make sure it was successful
-if($data == null)
+if($data == null){
     if(strpos($response, "key=") !== false) // If "key=" exists in response, servers rejected the key
         exit("Error: Missing/Invalid API key");
     else // Otherwise something went wrong when parsing the data
         exit("Error: Unable to decode JSON data.");
+}
 
 // $data should have a property "response" and it should in turn have "players"
 // If that's not the case, something went wrong with the API
